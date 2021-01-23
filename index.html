@@ -1,19 +1,13 @@
 <!doctype html>
 <html>
+ <head>
+  <title> 
+   My Super Cool Website 
+  </title>
+ </head>
  <body>
- <?php
- $servername = 'localhost';
- $username = 'myUsername';
- $password = 'myPassword';
- $myDatabase = 'myDatabase';
- // $conn = new mysqli('localhost', 'root', '');
- $conn = new mysqli($servername, $username, $password, $myDatabase);
- if ($conn->connect_error) {
- die('Connections failed: '.$conn -> connect_error);
- }
- echo "Connection successful. You're a real champ. <br />";
-
- $conn->close();
- ?>
+  <p> 
+   Hello World! 
+  </p>
  </body>
 </html>
